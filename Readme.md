@@ -39,3 +39,5 @@ before_script:
 install: yarn
 script: ./node_modules/.bin/wdio
 ```
+
+foo
