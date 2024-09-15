@@ -18,5 +18,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
+      with:
+        fetch-depth: 2 # Fetch the last 2 commits for the diff
     - name: Show git diff
       run: git diff HEAD^ HEAD
