@@ -1,6 +1,7 @@
 ## Approach
 Use webdriverIO which supports mutiple browsers running in parallel. If multiple browsers in parallel was not an option I would have liked to have tried https://www.cypress.io/ or https://github.com/prismagraphql/chromeless which I have yet to use
 yarn is used to manage the node dependencies
+
 ```
 yarn add webdriverIO
 yarn add chai
